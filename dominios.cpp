@@ -132,7 +132,7 @@ void Data::valid_data(string data) {
     if(ano % 4 == 0 && (ano % 400 == 0 || ano % 100 != 0)) {
         BISSEXTO = true;
     }
-    
+
     if(dia < DIAMIN || dia > DIAMAX) {
         throw invalid_argument("A data deve conter um dia entre 01 e 31");
     }
@@ -172,11 +172,11 @@ void Email::valid_email(string email) {
     if(local[0] == '.' || local[local.size() - 1] == '.') {
         throw invalid_argument("O primeiro e o ultimo caracter da parte local do email nao podem ser '.'");
     }
-    
+
     if(dominio[0] == '-' || dominio[dominio.size() - 1] == '-') {
         throw invalid_argument("O primeiro e o ultimo caracter da parte dominio do email nao podem ser '-'");
     }
-    
+
     for(int i = 0; i < local.size(); i++) {
         if(!((local[i] >= 'A' && local[i] <= 'Z') ||
              (local[i] >= 'a' && local[i] <= 'z') ||

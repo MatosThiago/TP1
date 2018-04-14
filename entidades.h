@@ -1,10 +1,30 @@
 #ifndef ENTIDADES_H
 #define ENTIDADES_H
 
+/**
+ * @brief Contém todas as classes Entidade
+ * 
+ * Este arquivo contém todas as classes entidade utilizadas.
+ * 
+ * @file entidades.h
+ * @author Thiago Santos Matos
+ * @date 14 de abril de 2018
+ */
+
 #include "dominios.h"
 
 using namespace std;
 
+/**
+ * @brief Classe responsável por armazenar informações do leitor
+ * 
+ * Os seguintes serviços estão disponíveis ao leitor: 
+ * apresentar dados do usuário, editar dados do usuário, 
+ * excluir conta, listar nomes dos vocabulários controlados, 
+ * apresentar dados de vocabulário controlado, consultar termo, 
+ * consultar definição de termo.
+ * 
+ */
 class Leitor {
 
     protected:
@@ -49,6 +69,15 @@ class Leitor {
         void show_leitor();
 };
 
+/**
+ * @brief Classe responsável por armazenar informações do desenvolvedor
+ * 
+ * Os seguintes serviços estão disponíveis ao Desenvolvedor: 
+ * os serviços disponíveis ao leitor, 
+ * cadastrar como desenvolvedor de vocabulário controlado, 
+ * criar, excluir, editar termo e definição de termo.
+ * 
+ */
 class Desenvolvedor : public Leitor {
 
     protected:
@@ -68,6 +97,15 @@ class Desenvolvedor : public Leitor {
         void show_desenvolvedor();
 };
 
+/**
+ * @brief Classe responsável por armazenar informações do administrador
+ * 
+ * Os seguintes serviços estão disponíveis ao Administrador: 
+ * os serviços disponíveis ao desenvolvedor, 
+ * criar vocabulário controlado, editar definição de vocabulário controlado, 
+ * alterar idioma de vocabulário controlado, excluir vocabulário controlado.
+ * 
+ */
 class Administrador : public Desenvolvedor {
 
     private:
@@ -94,6 +132,12 @@ class Administrador : public Desenvolvedor {
         void show_administrador();
 };
 
+/**
+ * @brief Classe responsável por armazenar informações do vocabulário controlado
+ * 
+ * Contém termo(s) e definição.
+ * 
+ */
 class Vocabulario {
 
     private:
@@ -127,6 +171,12 @@ class Vocabulario {
         void show_vocabulario();
 };
 
+/**
+ * @brief Classe responsável por armazenar informações do termo
+ * 
+ * Pertence ao vocabulário e contém definição.
+ * 
+ */
 class Termo {
 
     private:
@@ -160,6 +210,12 @@ class Termo {
         void show_termo();
 };
 
+/**
+ * @brief Classe responsável por armazenar informações da definição
+ * 
+ * Define o vocabulário ou termo.
+ * 
+ */
 class Definicao {
 
     private:

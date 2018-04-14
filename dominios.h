@@ -1,12 +1,26 @@
 #ifndef DOMINIOS_H
 #define DOMINIOS_H
 
+/**
+ * @brief Contém todas as classes Domínio
+ * 
+ * Este arquivo contém todas as classes domínio utilizadas.
+ * 
+ * @file dominios.h
+ * @author Thiago Santos Matos
+ * @date 14 de abril de 2018
+ */
+
 #include <iostream>
 
 using namespace std;
 
+/**
+ * @brief Classe responsável por armazenar nome
+ * 
+ */
 class Nome {
-    
+
     private:
 
         string nome;
@@ -21,15 +35,19 @@ class Nome {
         Nome(string nome) {
             set_nome(nome);
         };
-        
+
         void   set_nome(string);
         string get_nome() {
             return nome;
         };
 };
 
+/**
+ * @brief Classe responsável por armazenar sobrenome
+ * 
+ */
 class Sobrenome {
-    
+
     private:
 
         string sobrenome;
@@ -51,8 +69,12 @@ class Sobrenome {
         };
 };
 
+/**
+ * @brief Classe responsável por armazenar telefone
+ * 
+ */
 class Telefone {
-    
+
     private:
 
         string telefone;
@@ -74,8 +96,12 @@ class Telefone {
         };
 };
 
+/**
+ * @brief Classe responsável por armazenar endereço
+ * 
+ */
 class Endereco {
-    
+
     private:
 
         string endereco;
@@ -97,8 +123,12 @@ class Endereco {
         };
 };
 
+/**
+ * @brief Classe responsável por armazenar data
+ * 
+ */
 class Data {
-    
+
     private:
 
         string data;
@@ -142,8 +172,12 @@ class Data {
         };
 };
 
+/**
+ * @brief Classe responsável por armazenar email
+ * 
+ */
 class Email {
-    
+
     private:
 
         string email;
@@ -163,8 +197,12 @@ class Email {
         };
 };
 
+/**
+ * @brief Classe responsável por armazenar senha
+ * 
+ */
 class Senha {
-    
+
     private:
 
         string senha;
@@ -189,8 +227,12 @@ class Senha {
         };
 };
 
+/**
+ * @brief Classe responsável por armazenar texto de definição
+ * 
+ */
 class Texto {
-    
+
     private:
 
         string texto;
@@ -213,8 +255,15 @@ class Texto {
         };
 };
 
+/**
+ * @brief Classe responsável por armazenar idioma
+ * 
+ * Os seguintes idiomas estão disponíveis:  ENG (inglês), FRA (francês), 
+ * GER (alemão), ITA (italiano), POR (português) e SPA (espanhol).
+ * 
+ */
 class Idioma {
-    
+
     private:
 
         string idioma;
@@ -236,8 +285,17 @@ class Idioma {
         };
 };
 
+/**
+ * @brief Classe responsável por armazenar classe de termo
+ * 
+ * Quando só um termo está associado a uma definição, 
+ * esse é o termo preferido (preferred term). Quando mais de um termo está 
+ * associado a uma definição, um é o preferido e os outros são 
+ * não preferidos (non preferred term). 
+ * 
+ */
 class Classe {
-    
+
     private:
 
         string classe;

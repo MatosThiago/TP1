@@ -431,7 +431,7 @@ void TDominios::test() {
 }
 
 void TDominios::run() {
-    
+
     setup();
     test();
     teardown();

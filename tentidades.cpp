@@ -14,7 +14,7 @@ void TLeitor::test_sucesso() {
         leitor->set_sobrenome(SOBRENOME);
         leitor->set_email(EMAIL);
         leitor->set_senha(SENHA);
-        if(leitor->get_nome().get_nome() != NOME_VALIDO || leitor->get_sobrenome().get_sobrenome() != SOBRENOME_VALIDO || 
+        if(leitor->get_nome().get_nome() != NOME_VALIDO || leitor->get_sobrenome().get_sobrenome() != SOBRENOME_VALIDO ||
            leitor->get_email().get_email() != EMAIL_VALIDO || leitor->get_senha().get_senha() != SENHA_VALIDA) {
             ESTADO = FALHA;
         }
@@ -66,7 +66,7 @@ void TDesenvolvedor::test_sucesso() {
         desenvolvedor->set_email(EMAIL);
         desenvolvedor->set_senha(SENHA);
         desenvolvedor->set_data(DATA);
-        if(desenvolvedor->get_nome().get_nome() != NOME_VALIDO || desenvolvedor->get_sobrenome().get_sobrenome() != SOBRENOME_VALIDO || 
+        if(desenvolvedor->get_nome().get_nome() != NOME_VALIDO || desenvolvedor->get_sobrenome().get_sobrenome() != SOBRENOME_VALIDO ||
            desenvolvedor->get_email().get_email() != EMAIL_VALIDO || desenvolvedor->get_senha().get_senha() != SENHA_VALIDA ||
            desenvolvedor->get_data().get_data() != DATA_VALIDA) {
             ESTADO = FALHA;
@@ -125,7 +125,7 @@ void TAdministrador::test_sucesso() {
         administrador->set_data(DATA);
         administrador->set_telefone(TELEFONE);
         administrador->set_endereco(ENDERECO);
-        if(administrador->get_nome().get_nome() != NOME_VALIDO || administrador->get_sobrenome().get_sobrenome() != SOBRENOME_VALIDO || 
+        if(administrador->get_nome().get_nome() != NOME_VALIDO || administrador->get_sobrenome().get_sobrenome() != SOBRENOME_VALIDO ||
            administrador->get_email().get_email() != EMAIL_VALIDO || administrador->get_senha().get_senha() != SENHA_VALIDA ||
            administrador->get_data().get_data() != DATA_VALIDA || administrador->get_telefone().get_telefone() != TELEFONE_VALIDO ||
            administrador->get_endereco().get_endereco() != ENDERECO_VALIDO) {
@@ -305,7 +305,7 @@ void TEntidades::test() {
 }
 
 void TEntidades::run() {
-    
+
     setup();
     test();
     teardown();

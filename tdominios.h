@@ -1,12 +1,29 @@
 #ifndef TDOMINIOS_H
 #define TDOMINIOS_H
 
+/**
+ * @brief Contém todas as classes Teste de Domínios
+ * 
+ * Este arquivo contém todas as classes responsáveis por testar as classes Domínio.
+ * 
+ * @file tdominios.h
+ * @author Thiago Santos Matos
+ * @date 14 de abril de 2018
+ */
+
 #include "dominios.h"
 
 using namespace std;
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Nome
+ * 
+ * Realiza um teste com nome válido e um teste com nome inválido
+ * verificando lançamento de exceções.
+ * 
+ */
 class TNome {
-    
+
     private:
 
         Nome* nome;
@@ -14,7 +31,7 @@ class TNome {
         int ESTADO;
         const string VALIDO   = "Thiago";
         const string INVALIDO = "thiago";
-        
+
 
         void setup() {
             nome = new Nome();
@@ -35,8 +52,15 @@ class TNome {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Sobrenome
+ * 
+ * Realiza um teste com sobrenome válido e um teste com sobrenome inválido
+ * verificando lançamento de exceções.
+ * 
+ */
 class TSobrenome {
-    
+
     private:
 
         Sobrenome* sobrenome;
@@ -44,7 +68,7 @@ class TSobrenome {
         int ESTADO;
         const string VALIDO   = "Matos";
         const string INVALIDO = "matos";
-        
+
 
         void setup() {
             sobrenome = new Sobrenome();
@@ -65,8 +89,15 @@ class TSobrenome {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Telefone
+ * 
+ * Realiza um teste com telefone válido e um teste com telefone inválido
+ * verificando lançamento de exceções.
+ * 
+ */
 class TTelefone {
-    
+
     private:
 
         Telefone* telefone;
@@ -74,7 +105,7 @@ class TTelefone {
         int ESTADO;
         const string VALIDO   = "61 99803-7458";
         const string INVALIDO = "61998037458";
-        
+
 
         void setup() {
             telefone = new Telefone();
@@ -95,8 +126,15 @@ class TTelefone {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Endereco
+ * 
+ * Realiza um teste com endereço válido e um teste com endereço inválido
+ * verificando lançamento de exceções.
+ * 
+ */
 class TEndereco {
-    
+
     private:
 
         Endereco* endereco;
@@ -104,7 +142,7 @@ class TEndereco {
         int ESTADO;
         const string VALIDO   = "Rua Augusta";
         const string INVALIDO = "Rua 7";
-        
+
 
         void setup() {
             endereco = new Endereco();
@@ -125,8 +163,15 @@ class TEndereco {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Data
+ * 
+ * Realiza um teste com data válida e um teste com data inválida
+ * verificando lançamento de exceções.
+ * 
+ */
 class TData {
-    
+
     private:
 
         Data* data;
@@ -134,7 +179,7 @@ class TData {
         int ESTADO;
         const string VALIDO   = "13/06/1999";
         const string INVALIDO = "01-06-1999";
-        
+
 
         void setup() {
             data = new Data();
@@ -155,8 +200,15 @@ class TData {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Email
+ * 
+ * Realiza um teste com email válido e um teste com email inválido
+ * verificando lançamento de exceções.
+ * 
+ */
 class TEmail {
-    
+
     private:
 
         Email* email;
@@ -164,7 +216,7 @@ class TEmail {
         int ESTADO;
         const string VALIDO   = "thiago.matos882@gmail";
         const string INVALIDO = "thiago.matos882@12345";
-        
+
 
         void setup() {
             email = new Email();
@@ -185,8 +237,15 @@ class TEmail {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Senha
+ * 
+ * Realiza um teste com senha válida e um teste com senha inválida
+ * verificando lançamento de exceções.
+ * 
+ */
 class TSenha {
-    
+
     private:
 
         Senha* senha;
@@ -194,7 +253,7 @@ class TSenha {
         int ESTADO;
         const string VALIDO   = "Pass1234";
         const string INVALIDO = "password";
-        
+
 
         void setup() {
             senha = new Senha();
@@ -215,8 +274,15 @@ class TSenha {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Texo
+ * 
+ * Realiza um teste com texto válido e um teste com texto inválido
+ * verificando lançamento de exceções.
+ * 
+ */
 class TTexto {
-    
+
     private:
 
         Texto* texto;
@@ -224,7 +290,7 @@ class TTexto {
         int ESTADO;
         const string VALIDO   = "Texto de Definicao.";
         const string INVALIDO = "Texto de Definicao com mais de 30 caracteres.";
-        
+
 
         void setup() {
             texto = new Texto();
@@ -245,8 +311,15 @@ class TTexto {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Idioma
+ * 
+ * Realiza um teste com idioma válido e um teste com idioma inválido
+ * verificando lançamento de exceções.
+ * 
+ */
 class TIdioma {
-    
+
     private:
 
         Idioma* idioma;
@@ -254,7 +327,7 @@ class TIdioma {
         int ESTADO;
         const string VALIDO   = "ENG";
         const string INVALIDO = "AFR";
-        
+
 
         void setup() {
             idioma = new Idioma();
@@ -275,8 +348,15 @@ class TIdioma {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Classe
+ * 
+ * Realiza um teste com classe válida e um teste com classe inválida
+ * verificando lançamento de exceções.
+ * 
+ */
 class TClasse {
-    
+
     private:
 
         Classe* classe;
@@ -284,7 +364,7 @@ class TClasse {
         int ESTADO;
         const string VALIDO   = "PT";
         const string INVALIDO = "NT";
-        
+
 
         void setup() {
             classe = new Classe();
@@ -305,8 +385,12 @@ class TClasse {
 
 };
 
+/**
+ * @brief Classe responsável por retornar o resultado de todos os testes para as classes Domínio
+ * 
+ */
 class TDominios {
-    
+
     private:
 
         TNome*      nome;
@@ -349,7 +433,7 @@ class TDominios {
     public:
 
         void run();
-    
+
 };
 
 #endif

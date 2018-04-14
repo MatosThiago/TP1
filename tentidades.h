@@ -1,11 +1,27 @@
 #ifndef TENTIDADES_H
 #define TENTIDADES_H
 
+/**
+ * @brief Contém todas as classes Teste de Entidades
+ * 
+ * Este arquivo contém todas as classes responsáveis por testar as classes Entidade.
+ * 
+ * @file tentidades.h
+ * @author Thiago Santos Matos
+ * @date 14 de abril de 2018
+ */
+
 #include "dominios.h"
 #include "entidades.h"
 
 using namespace std;
 
+/**
+ * @brief Classe responsável por armazenar atributos
+ * 
+ * Armazena atributos que serão utilizados nos testes para as classes Entidade.
+ * 
+ */
 class TUsuario {
 
     protected:
@@ -24,11 +40,18 @@ class TUsuario {
 
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
-        
+
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Leitor
+ * 
+ * Realiza um teste com atributos válidos e um teste com atributos inválidos
+ * verificando lançamento de exceções.
+ * 
+ */
 class TLeitor : public TUsuario {
-    
+
     private:
 
         Leitor* leitor;
@@ -49,8 +72,15 @@ class TLeitor : public TUsuario {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Desenvolvedor
+ * 
+ * Realiza um teste com atributos válidos e um teste com atributos inválidos
+ * verificando lançamento de exceções.
+ * 
+ */
 class TDesenvolvedor : public TUsuario {
-    
+
     private:
 
         Desenvolvedor* desenvolvedor;
@@ -71,8 +101,15 @@ class TDesenvolvedor : public TUsuario {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Administrador
+ * 
+ * Realiza um teste com atributos válidos e um teste com atributos inválidos
+ * verificando lançamento de exceções.
+ * 
+ */
 class TAdministrador : public TUsuario {
-    
+
     private:
 
         Administrador* administrador;
@@ -93,8 +130,14 @@ class TAdministrador : public TUsuario {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Vocabulario
+ * 
+ * Realiza um teste com atributos válidos verificando armazenamento dos atributos.
+ * 
+ */
 class TVocabulario {
-    
+
     private:
 
         Vocabulario* vocabulario;
@@ -122,8 +165,14 @@ class TVocabulario {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Termo
+ * 
+ * Realiza um teste com atributos válidos verificando armazenamento dos atributos.
+ * 
+ */
 class TTermo {
-    
+
     private:
 
         Termo* termo;
@@ -151,8 +200,14 @@ class TTermo {
 
 };
 
+/**
+ * @brief Classe responsável por testar o funcionamento da classe Definicao
+ * 
+ * Realiza um teste com atributos válidos verificando armazenamento dos atributos.
+ * 
+ */
 class TDefinicao {
-    
+
     private:
 
         Definicao* definicao;
@@ -179,8 +234,12 @@ class TDefinicao {
 
 };
 
+/**
+ * @brief Classe responsável por retornar o resultado de todos os testes para as classes Entidade
+ * 
+ */
 class TEntidades {
-    
+
     private:
 
         TLeitor*        leitor;
@@ -211,7 +270,7 @@ class TEntidades {
     public:
 
         void run();
-    
+
 };
 
 #endif
