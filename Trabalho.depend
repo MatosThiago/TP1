@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1523751251 source:e:\documentos\unb\disciplinas\disciplinas\tp1\trabalho\code blocks\trabalho\dominios.cpp
+	"dominios.h"
+	<stdexcept>
+	<string>
+
+1523760476 e:\documentos\unb\disciplinas\disciplinas\tp1\trabalho\code blocks\trabalho\dominios.h
+	<iostream>
+
+1523750231 source:e:\documentos\unb\disciplinas\disciplinas\tp1\trabalho\code blocks\trabalho\entidades.cpp
+	"entidades.h"
+	<iostream>
+	<stdexcept>
+	<string>
+
+1523760477 e:\documentos\unb\disciplinas\disciplinas\tp1\trabalho\code blocks\trabalho\entidades.h
+	"dominios.h"
+
+1523735939 source:e:\documentos\unb\disciplinas\disciplinas\tp1\trabalho\code blocks\trabalho\main.cpp
+	"dominios.h"
+	"tdominios.h"
+	"entidades.h"
+	"tentidades.h"
+
+1523760765 e:\documentos\unb\disciplinas\disciplinas\tp1\trabalho\code blocks\trabalho\tdominios.h
+	"dominios.h"
+
+1523760767 e:\documentos\unb\disciplinas\disciplinas\tp1\trabalho\code blocks\trabalho\tentidades.h
+	"dominios.h"
+	"entidades.h"
+
+1523750235 source:e:\documentos\unb\disciplinas\disciplinas\tp1\trabalho\code blocks\trabalho\tdominios.cpp
+	"tdominios.h"
+	<iostream>
+	<stdexcept>
+
+1523750237 source:e:\documentos\unb\disciplinas\disciplinas\tp1\trabalho\code blocks\trabalho\tentidades.cpp
+	"tentidades.h"
+	<stdexcept>
+

@@ -45,10 +45,6 @@ class TUsuario {
 
 /**
  * @brief Responsável por testar o funcionamento da classe Leitor
- * 
- * Realiza um teste com atributos válidos e um teste com atributos inválidos
- * verificando lançamento de exceções.
- * 
  */
 class TLeitor : public TUsuario {
 
@@ -68,16 +64,18 @@ class TLeitor : public TUsuario {
 
     public:
 
+        /**
+         * @brief Realiza um teste com atributos válidos e um teste com atributos inválidos verificando lançamento de exceções
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Desenvolvedor
- * 
- * Realiza um teste com atributos válidos e um teste com atributos inválidos
- * verificando lançamento de exceções.
- * 
  */
 class TDesenvolvedor : public TUsuario {
 
@@ -97,16 +95,18 @@ class TDesenvolvedor : public TUsuario {
 
     public:
 
+        /**
+         * @brief Realiza um teste com atributos válidos e um teste com atributos inválidos verificando lançamento de exceções
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Administrador
- * 
- * Realiza um teste com atributos válidos e um teste com atributos inválidos
- * verificando lançamento de exceções.
- * 
  */
 class TAdministrador : public TUsuario {
 
@@ -126,15 +126,18 @@ class TAdministrador : public TUsuario {
 
     public:
 
+        /**
+         * @brief Realiza um teste com atributos válidos e um teste com atributos inválidos verificando lançamento de exceções
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Vocabulario
- * 
- * Realiza um teste com atributos válidos verificando armazenamento dos atributos.
- * 
  */
 class TVocabulario {
 
@@ -161,15 +164,18 @@ class TVocabulario {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com atributos válidos verificando armazenamento dos atributos
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Termo
- * 
- * Realiza um teste com atributos válidos verificando armazenamento dos atributos.
- * 
  */
 class TTermo {
 
@@ -196,15 +202,18 @@ class TTermo {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com atributos válidos verificando armazenamento dos atributos
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Definicao
- * 
- * Realiza um teste com atributos válidos verificando armazenamento dos atributos.
- * 
  */
 class TDefinicao {
 
@@ -230,13 +239,18 @@ class TDefinicao {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com atributos válidos verificando armazenamento dos atributos
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por retornar o resultado de todos os testes para as classes Entidade
- * 
  */
 class TEntidades {
 
@@ -269,6 +283,9 @@ class TEntidades {
 
     public:
 
+        /**
+         * @brief Exibe os resultados de todos os testes das classes Entidade
+         */
         void run();
 
 };

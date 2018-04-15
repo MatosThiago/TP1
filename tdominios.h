@@ -17,10 +17,6 @@ using namespace std;
 
 /**
  * @brief Responsável por testar o funcionamento da classe Nome
- * 
- * Realiza um teste com nome válido e um teste com nome inválido
- * verificando lançamento de exceções.
- * 
  */
 class TNome {
 
@@ -48,16 +44,18 @@ class TNome {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com nome válido e um teste com nome inválido verificando lançamento de exceções
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Sobrenome
- * 
- * Realiza um teste com sobrenome válido e um teste com sobrenome inválido
- * verificando lançamento de exceções.
- * 
  */
 class TSobrenome {
 
@@ -85,16 +83,18 @@ class TSobrenome {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com sobrenome válido e um teste com sobrenome inválido verificando lançamento de exceções
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Telefone
- * 
- * Realiza um teste com telefone válido e um teste com telefone inválido
- * verificando lançamento de exceções.
- * 
  */
 class TTelefone {
 
@@ -122,16 +122,18 @@ class TTelefone {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com telefone válido e um teste com telefone inválido verificando lançamento de exceções
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Endereco
- * 
- * Realiza um teste com endereço válido e um teste com endereço inválido
- * verificando lançamento de exceções.
- * 
  */
 class TEndereco {
 
@@ -159,16 +161,18 @@ class TEndereco {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com endereço válido e um teste com endereço inválido verificando lançamento de exceções
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Data
- * 
- * Realiza um teste com data válida e um teste com data inválida
- * verificando lançamento de exceções.
- * 
  */
 class TData {
 
@@ -196,16 +200,18 @@ class TData {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com data válida e um teste com data inválida verificando lançamento de exceções
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Email
- * 
- * Realiza um teste com email válido e um teste com email inválido
- * verificando lançamento de exceções.
- * 
  */
 class TEmail {
 
@@ -233,16 +239,18 @@ class TEmail {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com email válido e um teste com email inválido verificando lançamento de exceções
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Senha
- * 
- * Realiza um teste com senha válida e um teste com senha inválida
- * verificando lançamento de exceções.
- * 
  */
 class TSenha {
 
@@ -270,16 +278,18 @@ class TSenha {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com senha válida e um teste com senha inválida verificando lançamento de exceções
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha 
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Texto
- * 
- * Realiza um teste com texto válido e um teste com texto inválido
- * verificando lançamento de exceções.
- * 
  */
 class TTexto {
 
@@ -307,16 +317,18 @@ class TTexto {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com texto válido e um teste com texto inválido verificando lançamento de exceções
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Idioma
- * 
- * Realiza um teste com idioma válido e um teste com idioma inválido
- * verificando lançamento de exceções.
- * 
  */
 class TIdioma {
 
@@ -344,16 +356,18 @@ class TIdioma {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com idioma válido e um teste com idioma inválido verificando lançamento de exceções
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por testar o funcionamento da classe Classe
- * 
- * Realiza um teste com classe válida e um teste com classe inválida
- * verificando lançamento de exceções.
- * 
  */
 class TClasse {
 
@@ -381,13 +395,18 @@ class TClasse {
         const static int SUCESSO = 1;
         const static int FALHA   = 0;
 
+        /**
+         * @brief Realiza um teste com classe válida e um teste com classe inválida verificando lançamento de exceções.
+         * 
+         * @return 1 em caso de sucesso
+         * @return 0 em caso de falha
+         */
         int run();
 
 };
 
 /**
  * @brief Responsável por retornar o resultado de todos os testes para as classes Domínio
- * 
  */
 class TDominios {
 
@@ -432,6 +451,9 @@ class TDominios {
 
     public:
 
+        /**
+         * @brief Exibe os resultados de todos os testes das classes Dominio
+         */
         void run();
 
 };
