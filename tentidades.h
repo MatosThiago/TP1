@@ -17,7 +17,7 @@
 using namespace std;
 
 /**
- * @brief Classe responsável por armazenar atributos
+ * @brief Responsável por armazenar atributos
  * 
  * Armazena atributos que serão utilizados nos testes para as classes Entidade.
  * 
@@ -44,7 +44,7 @@ class TUsuario {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Leitor
+ * @brief Responsável por testar o funcionamento da classe Leitor
  * 
  * Realiza um teste com atributos válidos e um teste com atributos inválidos
  * verificando lançamento de exceções.
@@ -73,7 +73,7 @@ class TLeitor : public TUsuario {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Desenvolvedor
+ * @brief Responsável por testar o funcionamento da classe Desenvolvedor
  * 
  * Realiza um teste com atributos válidos e um teste com atributos inválidos
  * verificando lançamento de exceções.
@@ -102,7 +102,7 @@ class TDesenvolvedor : public TUsuario {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Administrador
+ * @brief Responsável por testar o funcionamento da classe Administrador
  * 
  * Realiza um teste com atributos válidos e um teste com atributos inválidos
  * verificando lançamento de exceções.
@@ -131,7 +131,7 @@ class TAdministrador : public TUsuario {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Vocabulario
+ * @brief Responsável por testar o funcionamento da classe Vocabulario
  * 
  * Realiza um teste com atributos válidos verificando armazenamento dos atributos.
  * 
@@ -166,7 +166,7 @@ class TVocabulario {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Termo
+ * @brief Responsável por testar o funcionamento da classe Termo
  * 
  * Realiza um teste com atributos válidos verificando armazenamento dos atributos.
  * 
@@ -201,7 +201,7 @@ class TTermo {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Definicao
+ * @brief Responsável por testar o funcionamento da classe Definicao
  * 
  * Realiza um teste com atributos válidos verificando armazenamento dos atributos.
  * 
@@ -235,7 +235,7 @@ class TDefinicao {
 };
 
 /**
- * @brief Classe responsável por retornar o resultado de todos os testes para as classes Entidade
+ * @brief Responsável por retornar o resultado de todos os testes para as classes Entidade
  * 
  */
 class TEntidades {

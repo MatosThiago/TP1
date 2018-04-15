@@ -16,7 +16,7 @@
 using namespace std;
 
 /**
- * @brief Classe responsável por armazenar nome
+ * @brief Responsável por armazenar nome
  */
 class Nome {
 
@@ -61,7 +61,7 @@ class Nome {
 };
 
 /**
- * @brief Classe responsável por armazenar sobrenome
+ * @brief Responsável por armazenar sobrenome
  */
 class Sobrenome {
 
@@ -106,7 +106,7 @@ class Sobrenome {
 };
 
 /**
- * @brief Classe responsável por armazenar telefone
+ * @brief Responsável por armazenar telefone
  */
 class Telefone {
 
@@ -152,7 +152,7 @@ class Telefone {
 };
 
 /**
- * @brief Classe responsável por armazenar endereço
+ * @brief Responsável por armazenar endereço
  */
 class Endereco {
 
@@ -199,7 +199,7 @@ class Endereco {
 };
 
 /**
- * @brief Classe responsável por armazenar data
+ * @brief Responsável por armazenar data
  */
 class Data {
 
@@ -267,7 +267,7 @@ class Data {
 };
 
 /**
- * @brief Classe responsável por armazenar email
+ * @brief Responsável por armazenar email
  */
 class Email {
 
@@ -315,7 +315,7 @@ class Email {
 };
 
 /**
- * @brief Classe responsável por armazenar senha
+ * @brief Responsável por armazenar senha
  */
 class Senha {
 
@@ -365,7 +365,7 @@ class Senha {
 };
 
 /**
- * @brief Classe responsável por armazenar texto de definição
+ * @brief Responsável por armazenar texto de definição
  */
 class Texto {
 
@@ -410,7 +410,7 @@ class Texto {
 };
 
 /**
- * @brief Classe responsável por armazenar idioma
+ * @brief Responsável por armazenar idioma
  * 
  * Os seguintes idiomas estão disponíveis:  ENG (inglês), FRA (francês), 
  * GER (alemão), ITA (italiano), POR (português) e SPA (espanhol).
@@ -458,7 +458,7 @@ class Idioma {
 };
 
 /**
- * @brief Classe responsável por armazenar classe de termo
+ * @brief Responsável por armazenar classe de termo
  * 
  * Quando só um termo está associado a uma definição, 
  * esse é o termo preferido (preferred term). Quando mais de um termo está 

@@ -16,7 +16,7 @@
 using namespace std;
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Nome
+ * @brief Responsável por testar o funcionamento da classe Nome
  * 
  * Realiza um teste com nome válido e um teste com nome inválido
  * verificando lançamento de exceções.
@@ -53,7 +53,7 @@ class TNome {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Sobrenome
+ * @brief Responsável por testar o funcionamento da classe Sobrenome
  * 
  * Realiza um teste com sobrenome válido e um teste com sobrenome inválido
  * verificando lançamento de exceções.
@@ -90,7 +90,7 @@ class TSobrenome {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Telefone
+ * @brief Responsável por testar o funcionamento da classe Telefone
  * 
  * Realiza um teste com telefone válido e um teste com telefone inválido
  * verificando lançamento de exceções.
@@ -127,7 +127,7 @@ class TTelefone {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Endereco
+ * @brief Responsável por testar o funcionamento da classe Endereco
  * 
  * Realiza um teste com endereço válido e um teste com endereço inválido
  * verificando lançamento de exceções.
@@ -164,7 +164,7 @@ class TEndereco {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Data
+ * @brief Responsável por testar o funcionamento da classe Data
  * 
  * Realiza um teste com data válida e um teste com data inválida
  * verificando lançamento de exceções.
@@ -201,7 +201,7 @@ class TData {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Email
+ * @brief Responsável por testar o funcionamento da classe Email
  * 
  * Realiza um teste com email válido e um teste com email inválido
  * verificando lançamento de exceções.
@@ -238,7 +238,7 @@ class TEmail {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Senha
+ * @brief Responsável por testar o funcionamento da classe Senha
  * 
  * Realiza um teste com senha válida e um teste com senha inválida
  * verificando lançamento de exceções.
@@ -275,7 +275,7 @@ class TSenha {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Texto
+ * @brief Responsável por testar o funcionamento da classe Texto
  * 
  * Realiza um teste com texto válido e um teste com texto inválido
  * verificando lançamento de exceções.
@@ -312,7 +312,7 @@ class TTexto {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Idioma
+ * @brief Responsável por testar o funcionamento da classe Idioma
  * 
  * Realiza um teste com idioma válido e um teste com idioma inválido
  * verificando lançamento de exceções.
@@ -349,7 +349,7 @@ class TIdioma {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Classe
+ * @brief Responsável por testar o funcionamento da classe Classe
  * 
  * Realiza um teste com classe válida e um teste com classe inválida
  * verificando lançamento de exceções.
@@ -386,7 +386,7 @@ class TClasse {
 };
 
 /**
- * @brief Classe responsável por retornar o resultado de todos os testes para as classes Domínio
+ * @brief Responsável por retornar o resultado de todos os testes para as classes Domínio
  * 
  */
 class TDominios {
