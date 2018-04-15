@@ -172,11 +172,11 @@ void Email::valid_email(string email) {
     if(local[0] == '.' || local[local.size() - 1] == '.') {
         throw invalid_argument("O primeiro e o ultimo caracter da parte local do email nao podem ser '.'");
     }
-
-    if(dominio[0] == '-' || dominio[dominio.size() - 1] == '-') {
-        throw invalid_argument("O primeiro e o ultimo caracter da parte dominio do email nao podem ser '-'");
+    
+    if(dominio[0] == '-' || dominio[0] == '.' || dominio[dominio.size() - 1] == '-' || dominio[dominio.size() - 1] == '.') {
+        throw invalid_argument("O primeiro e o ultimo caracter da parte dominio do email nao podem ser '-' ou '.'");
     }
-
+    
     for(int i = 0; i < local.size(); i++) {
         if(!((local[i] >= 'A' && local[i] <= 'Z') ||
              (local[i] >= 'a' && local[i] <= 'z') ||
@@ -197,10 +197,10 @@ void Email::valid_email(string email) {
         if(dominio[i] >= '0' && dominio[i] <= '9') {
             numero++;
         } else {
-            if(!((local[i] >= 'A' && local[i] <= 'Z') ||
-                 (local[i] >= 'a' && local[i] <= 'z'))) {
-                if(!(dominio[i] == '-')) {
-                    throw invalid_argument("A parte dominio do email pode conter letras, numeros ou o caracter '-'");
+            if(!((dominio[i] >= 'A' && dominio[i] <= 'Z') ||
+                 (dominio[i] >= 'a' && dominio[i] <= 'z'))) {
+                if(!(dominio[i] == '-' || dominio[i] == '.')) {
+                    throw invalid_argument("A parte dominio do email pode conter letras, numeros ou os caracteres '-' '.'");
                 }
             }
         }

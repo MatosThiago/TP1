@@ -214,7 +214,7 @@ class TEmail {
         Email* email;
 
         int ESTADO;
-        const string VALIDO   = "thiago.matos882@gmail";
+        const string VALIDO   = "thiago.matos882@gmail.com";
         const string INVALIDO = "thiago.matos882@12345";
 
 
@@ -275,7 +275,7 @@ class TSenha {
 };
 
 /**
- * @brief Classe responsável por testar o funcionamento da classe Texo
+ * @brief Classe responsável por testar o funcionamento da classe Texto
  * 
  * Realiza um teste com texto válido e um teste com texto inválido
  * verificando lançamento de exceções.

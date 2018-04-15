@@ -29,7 +29,7 @@ class TUsuario {
         int ESTADO;
         const string NOME_VALIDO      = "Thiago";
         const string SOBRENOME_VALIDO = "Matos";
-        const string EMAIL_VALIDO     = "thiago.matos882@gmail";
+        const string EMAIL_VALIDO     = "thiago.matos882@gmail.com";
         const string SENHA_VALIDA     = "Pass1234";
         const string SENHA_INVALIDA   = "Othiago1";
         const string DATA_VALIDA      = "13/06/1999";
