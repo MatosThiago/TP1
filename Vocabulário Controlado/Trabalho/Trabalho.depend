@@ -38,3 +38,42 @@
 	"tentidades.h"
 	<stdexcept>
 
+1523751251 source:e:\documentos\git\tp1\vocabulário controlado\trabalho\dominios.cpp
+	"dominios.h"
+	<stdexcept>
+	<string>
+
+1523930125 e:\documentos\git\tp1\vocabulário controlado\trabalho\dominios.h
+	<iostream>
+
+1523750231 source:e:\documentos\git\tp1\vocabulário controlado\trabalho\entidades.cpp
+	"entidades.h"
+	<iostream>
+	<stdexcept>
+	<string>
+
+1523930130 e:\documentos\git\tp1\vocabulário controlado\trabalho\entidades.h
+	"dominios.h"
+
+1523735939 source:e:\documentos\git\tp1\vocabulário controlado\trabalho\main.cpp
+	"dominios.h"
+	"tdominios.h"
+	"entidades.h"
+	"tentidades.h"
+
+1523930254 e:\documentos\git\tp1\vocabulário controlado\trabalho\tdominios.h
+	"dominios.h"
+
+1523930333 e:\documentos\git\tp1\vocabulário controlado\trabalho\tentidades.h
+	"dominios.h"
+	"entidades.h"
+
+1523750235 source:e:\documentos\git\tp1\vocabulário controlado\trabalho\tdominios.cpp
+	"tdominios.h"
+	<iostream>
+	<stdexcept>
+
+1523750237 source:e:\documentos\git\tp1\vocabulário controlado\trabalho\tentidades.cpp
+	"tentidades.h"
+	<stdexcept>
+
